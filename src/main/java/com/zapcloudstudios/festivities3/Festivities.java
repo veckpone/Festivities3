@@ -303,7 +303,7 @@ public class Festivities
 	@EventHandler
 	public void load(FMLInitializationEvent event)
 	{
-		BiomeGenKringle.registerBiomes(119);
+		BiomeGenKringle.registerBiomes(118);
 
 		this.proxy.registerRenderers();
 
