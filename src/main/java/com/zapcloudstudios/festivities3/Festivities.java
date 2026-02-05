@@ -89,7 +89,7 @@ public class Festivities
 
 	public static final String VERSION = "@VERSION@";
 
-	public static final int kringleId = 3;
+	public static final int kringleId = 25;
 
 	protected static HashMap<Integer, Integer> oldidsmap = new HashMap<Integer, Integer>();
 	protected static HashMap<Integer, Integer> newidsmap = new HashMap<Integer, Integer>();
@@ -303,7 +303,7 @@ public class Festivities
 	@EventHandler
 	public void load(FMLInitializationEvent event)
 	{
-		BiomeGenKringle.registerBiomes(130);
+		BiomeGenKringle.registerBiomes(119);
 
 		this.proxy.registerRenderers();
 
